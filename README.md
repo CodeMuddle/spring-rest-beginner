@@ -53,15 +53,46 @@ git commit -m "create one api that allows users to view time from different citi
 git push origin develop:develop
 ```
 
+### Writing Tests
+
+* Go to [TestNG website](http://testng.org/doc/) to learn how to use it
+  * You can also look at this [Beginner Tutorial](https://www.mkyong.com/unittest/testng-spring-integration-example/)
+
+* Write one unit test for a method that is in charge of computing the time.
+
+* Add configuration to run the test in `build.gradle`
+
+* Make sure you can run the test localy
+
 ### Test Automation
-* Configure **Travis-ci** to run your tests
+Configure **Travis-ci** to run your tests
 
+* Go to [travi-ci.org](https://travis-ci.org/) and login with your github account.
+* Go to your profile 
+```sh
+# the url should look like this after you go to your profile
+https://travis-ci.org/profile/<github-username>
+```
+
+* Find your `time-checker` github project and click on the toogle button.
+  * This will allow **travis-ci** to automatically run your tests
+
+* In your root project folder, create a file called `.travis.yml` and paste in the code below
+```
+language: java
+jdk:
+- oraclejdk8
+install: 
+- "./gradlew build"
+script: 
+- "./gradlew test"
+```
+
+* Commit your changes and push the code to github server
+  * Now if you go to **Travis-ci.org**, you should see your tests running!
+
+### Test Coverage
 TODO
-
-
-
-
-
 
 
 
