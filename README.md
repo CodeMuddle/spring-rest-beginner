@@ -102,7 +102,7 @@ Find out the local time of remote cities
 ```
 
 * Explain how your code is structured *in short*
-  * **NOTE:** this is varies from developer to developer
+  * **NOTE:** this varies from developer to developer
   
 * Explain how to compile and run the project locally
 ```sh
