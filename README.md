@@ -117,7 +117,7 @@ Find out the local time of remote cities
 ```
   
 * Explain how other developers can add more code to your project
-  * **NOTE:** this is varies from developer to developer
+  * **NOTE:** this varies from developer to developer
 ```sh
 # Assume your local branch is currently develop
 
