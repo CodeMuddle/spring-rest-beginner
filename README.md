@@ -115,7 +115,13 @@ Find out the local time of remote cities
 
 # ...
 ```
-  
+
+* Explain how to run unit tests
+```sh
+# example on terminal
+./gradlew test
+```
+
 * Explain how other developers can add more code to your project
   * **NOTE:** this varies from developer to developer
 ```sh
