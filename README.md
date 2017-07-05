@@ -91,6 +91,40 @@ script:
 * Commit your changes and push the code to github server
   * Now if you go to **Travis-ci.org**, you should see your tests running!
 
+### Documentation
+Tell other developers *how your code is structured*, *how to compile/run it locally*, and *what steps to follow when contributing to your project*
+
+* Create a `README.md` file
+* Add a **title** and **description** of your application
+```markdwon
+# Time Checker
+Find out the local time of remote cities
+```
+
+* Explain how your code is structured *in short*
+  * **NOTE:** this is varies from developer to developer
+  
+* Explain how to compile and run the project locally
+```sh
+./gradlew clean build bootRun
+```
+
+* Explain how other developers can add more code to your project
+  * **NOTE:** this is varies from developer to developer
+```sh
+# Assume your local branch is currently develop
+
+# for bug fixing
+git checkout -b bugfix/<bug-short-name>
+
+# for feature addition
+git checkout -b feature/<feature-short-name>
+
+# when done, make pull request to develop branch
+```
+
+* When you push your code to github, you should see your `README content` printed under the file/folder list!
+
 ### Test Coverage
 TODO
 
