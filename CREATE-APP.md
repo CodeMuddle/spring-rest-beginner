@@ -11,7 +11,7 @@
 
 * write unit test for the method that converts the time
   * [nshimiye](https://github.com/nshimiye/time-checker/tree/develop/src/test/java/me/marcellin/timechecker/api/v1/time)
-  * [nshimiye](https://github.com/abyayalamsal/time-checker/tree/develop/src/test/java/com/marsassignment/Test)
+  * [abyayalamsal](https://github.com/abyayalamsal/time-checker/tree/develop/src/test/java/com/marsassignment/Test)
 
 * Write acceptance test for the api handling controller
 ```java
