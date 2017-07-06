@@ -139,7 +139,28 @@ git checkout -b feature/<feature-short-name>
 * When you push your code to github, you should see your `README content` printed under the file/folder list!
 
 ### Test Coverage
-TODO
+
+* Go to [Jacoco website](http://www.jacoco.org/jacoco/index.html) and learn what it is and how to use it
+
+* Configure Jacoco to create *code coverage html report*, using gradle
+   * You can checkout the [plugin docs](https://docs.gradle.org/3.3/userguide/jacoco_plugin.html) for more info
+
+* Run gradle task to generate report
+```sh
+# example
+./gradlew clean test jacocoTestReport
+```
+
+* If everything worked fine, you should be able to view the report in your browser!
+
+* Go to [SonarQube](https://www.sonarqube.org/) and learn what it is and how to use it
+
+* Signup for [sonarqube.io](https://sonarcloud.io) using your github account
+
+* Read through the [documentation](https://about.sonarcloud.io/get-started/), then configure gradle to send information about your project to sonarqube.
+  * NOTE that you can look at this [forum post](https://discuss.gradle.org/t/provide-support-for-per-unit-test-coverage-reports-in-sonarqube/397) if sonarqube is not showing code coverage information.
+
+
 
 
 
