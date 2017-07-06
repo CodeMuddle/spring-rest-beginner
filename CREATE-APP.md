@@ -4,6 +4,8 @@
 
 * Create spring boot application
 [Link to create new app](https://start.spring.io/)
+ * The walkthrough assumes that
+  * you are using gradle
 
 * Add the code
   * [nshimiye](https://github.com/nshimiye/time-checker/tree/develop/src/main/java/me/marcellin/timechecker/api/v1/time)
