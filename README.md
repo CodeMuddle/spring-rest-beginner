@@ -169,4 +169,9 @@ git checkout -b feature/<feature-short-name>
 * If everything works as expected, you should see analysis of your code by this url `https://sonarcloud.io/organizations/<org>/projects`
 
 
+### Summary
+At this point you should able to
+* Track your code changes using [git](github.com)
+* Test your code using [travis-ci](travis-ci.org)
+* View code coverage using [SonarQube](sonarqube.io)
 
