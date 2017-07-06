@@ -160,7 +160,13 @@ git checkout -b feature/<feature-short-name>
 * Read through the [documentation](https://about.sonarcloud.io/get-started/), then configure gradle to send information about your project to sonarqube.
   * NOTE that you can look at this [forum post](https://discuss.gradle.org/t/provide-support-for-per-unit-test-coverage-reports-in-sonarqube/397) if sonarqube is not showing code coverage information.
 
+* Run gradle task to send info to sonarqube
+```sh
+# example
+./gradlew clean sonarqube -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=<org> -Dsonar.login=<token>
+```
 
+* If everything works as expected, you should see analysis of your code by this url `https://sonarcloud.io/organizations/<org>/projects`
 
 
 
